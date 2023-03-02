@@ -1,10 +1,5 @@
-/*
- * @Author: JL Guan
- * @Date: 2023-03-02 16:12:36
- * @description: file description
- * @LastEditTime: 2023-03-02 17:10:09
- * @FilePath: /create-vue-file/bin.js
- */
+#!/usr/bin/env node
+
 const fs = require('fs-extra');
 const path = require('path');
 const args = process.argv.slice(2); 
@@ -21,7 +16,7 @@ if (!fileName) {
   return;
 }
 
-const filePath = path.join(__dirname, `${args[0]}/${fileName}.vue`)
+const filePath = path.join(process.cwd(), `${args[0]}/${fileName}.vue`)
 
 fs.ensureFile(filePath, err => {
   !err && fs.writeFile(filePath, getTemplate(fileName))
