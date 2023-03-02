@@ -1,6 +1,6 @@
 {
   "name": "create-vue3-file",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,12 @@
   "bin": {
     "createVueFile": "./bin.js"
   },
+  "repository": "https://github.com/OK-OK/create-vue3-file",
+  "keywords": [
+    "create",
+    "vue",
+    "template"
+  ],
   "devDependencies": {
     "fs-extra": "^11.1.0"
   }
