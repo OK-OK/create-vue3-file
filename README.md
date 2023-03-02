@@ -17,4 +17,4 @@ $ yarn add create-vue3-file -D
 
 ````
 
-$ npx createVueFile [filePath] [fileName]
+$ npx createVueFile <filePath> <fileName>
