@@ -1,0 +1,17 @@
+{
+  "name": "create-vue3-file",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JL Guan",
+  "license": "ISC",
+  "bin": {
+    "createVueFile": "./bin.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.0"
+  }
+}
