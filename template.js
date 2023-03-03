@@ -1,7 +1,7 @@
 module.exports = fileName => 
 `<template>
   <div :class="prefix">
-    <div :class="\`{prefix}_container\`">
+    <div :class="\`\${prefix}_container\`">
       {{ prefix }}
     </div>
   </div>
